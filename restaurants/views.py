@@ -33,12 +33,12 @@ def recommend_restaurants(request):
     all_restaurants = Restaurant.objects.exclude(id__in=saved_restaurants)
     
     all_data = [
-        f"{r.category} {r.location} {r.service} {r.menu1} {r.menu2}"
+        f"{r.menu1} {r.menu2}  {r.service} {r.category} {r.location}"
         for r in all_restaurants
     ]
 
     saved_data = [
-        f"{r.category} {r.location} {r.service} {r.menu1} {r.menu2}"
+        f"{r.menu1} {r.menu2} {r.service} {r.category} {r.location}"
         for r in saved_restaurant_objs
     ]
 
