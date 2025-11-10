@@ -1,0 +1,56 @@
+# Python
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+/media/
+/staticfiles/
+.env
+*.log
+
+# CSV 데이터 파일
+*.csv
+
+# 이미지 파일 (대용량)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Cache
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 기타
+*.zip
+*.tar.gz
+tempCodeRunnerFile.*
+*.pem
+
+# API Keys and secrets
+.env
+*.key
+*secret*
+*api_key*
+
